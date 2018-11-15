@@ -52,6 +52,8 @@
     <Compile Include="Agregar Caniones.Designer.cs">
       <DependentUpon>Agregar Caniones.cs</DependentUpon>
     </Compile>
+    <Compile Include="Clases\Cancion.cs" />
+    <Compile Include="Clases\Conexion.cs" />
     <Compile Include="Eliminar Canciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +107,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SQL\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
