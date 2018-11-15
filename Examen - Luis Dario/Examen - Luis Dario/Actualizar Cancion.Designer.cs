@@ -1,6 +1,6 @@
 ﻿namespace Examen___Luis_Dario
 {
-    partial class frmAgregarCancion
+    partial class frmActulizarCancion
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.lbGenero = new System.Windows.Forms.GroupBox();
-            this.btnAgregar = new System.Windows.Forms.Button();
+            this.btnActualizar = new System.Windows.Forms.Button();
             this.lbCanciones = new System.Windows.Forms.ListBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -46,7 +46,7 @@
             // 
             // lbGenero
             // 
-            this.lbGenero.Controls.Add(this.btnAgregar);
+            this.lbGenero.Controls.Add(this.btnActualizar);
             this.lbGenero.Controls.Add(this.lbCanciones);
             this.lbGenero.Controls.Add(this.textBox5);
             this.lbGenero.Controls.Add(this.textBox4);
@@ -59,29 +59,29 @@
             this.lbGenero.Controls.Add(this.lbArtista);
             this.lbGenero.Controls.Add(this.lbNombre);
             this.lbGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbGenero.Location = new System.Drawing.Point(29, 31);
+            this.lbGenero.Location = new System.Drawing.Point(12, 33);
             this.lbGenero.Name = "lbGenero";
             this.lbGenero.Size = new System.Drawing.Size(711, 315);
-            this.lbGenero.TabIndex = 0;
+            this.lbGenero.TabIndex = 1;
             this.lbGenero.TabStop = false;
-            this.lbGenero.Text = "Agregar Canciones";
+            this.lbGenero.Text = "Actualizar Canciones";
             // 
-            // btnAgregar
+            // btnActualizar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(299, 267);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(140, 42);
-            this.btnAgregar.TabIndex = 12;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Location = new System.Drawing.Point(244, 256);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(140, 42);
+            this.btnActualizar.TabIndex = 12;
+            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = true;
             // 
             // lbCanciones
             // 
             this.lbCanciones.FormattingEnabled = true;
             this.lbCanciones.ItemHeight = 20;
-            this.lbCanciones.Location = new System.Drawing.Point(437, 54);
+            this.lbCanciones.Location = new System.Drawing.Point(410, 38);
             this.lbCanciones.Name = "lbCanciones";
-            this.lbCanciones.Size = new System.Drawing.Size(254, 184);
+            this.lbCanciones.Size = new System.Drawing.Size(281, 184);
             this.lbCanciones.TabIndex = 11;
             // 
             // textBox5
@@ -164,14 +164,14 @@
             this.lbNombre.TabIndex = 0;
             this.lbNombre.Text = "Nombre:";
             // 
-            // frmAgregarCancion
+            // frmActulizarCancion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(759, 368);
+            this.ClientSize = new System.Drawing.Size(749, 360);
             this.Controls.Add(this.lbGenero);
-            this.Name = "frmAgregarCancion";
-            this.Text = "Agregar Canciones";
+            this.Name = "frmActulizarCancion";
+            this.Text = "Actualizar Cancion";
             this.lbGenero.ResumeLayout(false);
             this.lbGenero.PerformLayout();
             this.ResumeLayout(false);
@@ -181,17 +181,17 @@
         #endregion
 
         private System.Windows.Forms.GroupBox lbGenero;
+        private System.Windows.Forms.Button btnActualizar;
+        private System.Windows.Forms.ListBox lbCanciones;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lbArtista;
         private System.Windows.Forms.Label lbNombre;
-        private System.Windows.Forms.Button btnAgregar;
-        private System.Windows.Forms.ListBox lbCanciones;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label4;
     }
 }

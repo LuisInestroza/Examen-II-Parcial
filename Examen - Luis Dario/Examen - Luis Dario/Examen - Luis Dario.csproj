@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actualizar Cancion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Actualizar Cancion.Designer.cs">
+      <DependentUpon>Actualizar Cancion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Agregar Caniones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Actualizar Cancion.resx">
+      <DependentUpon>Actualizar Cancion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Agregar Caniones.resx">
       <DependentUpon>Agregar Caniones.cs</DependentUpon>
     </EmbeddedResource>

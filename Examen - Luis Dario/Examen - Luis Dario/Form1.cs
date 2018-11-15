@@ -16,5 +16,34 @@ namespace Examen___Luis_Dario
         {
             InitializeComponent();
         }
+
+        private void btnListar_Click(object sender, EventArgs e)
+        {
+            // Abrir el formulario de listar Canciones
+            frmlistarCancion abrir = new frmlistarCancion();
+            abrir.Show();
+        }
+
+        private void btnElimarCancion_Click(object sender, EventArgs e)
+        {
+            // Abrir el formulario de eliminar Canciones
+            frmEliminarCanciones abrir = new frmEliminarCanciones();
+            abrir.Show();
+        }
+
+        private void btnActualizarCancion_Click(object sender, EventArgs e)
+        {
+            // Abrir el formulario de actulizar Canciones
+            frmActulizarCancion abrir = new frmActulizarCancion();
+            abrir.Show();
+        }
+
+        private void btnAgregarCancion_Click(object sender, EventArgs e)
+        {
+            // Abrir el formulario de agregar Canciones
+            frmAgregarCancion abrir = new frmAgregarCancion();
+            abrir.Show();
+            
+        }
     }
 }

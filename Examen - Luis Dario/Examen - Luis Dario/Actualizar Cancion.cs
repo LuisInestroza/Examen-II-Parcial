@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Examen___Luis_Dario
 {
-    public partial class frmAgregarCancion : Form
+    public partial class frmActulizarCancion : Form
     {
-        public frmAgregarCancion()
+        public frmActulizarCancion()
         {
             InitializeComponent();
         }

@@ -44,6 +44,7 @@
             this.btnListar.TabIndex = 0;
             this.btnListar.Text = "Listar Canciones";
             this.btnListar.UseVisualStyleBackColor = true;
+            this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
             // 
             // btnElimarCancion
             // 
@@ -53,6 +54,7 @@
             this.btnElimarCancion.TabIndex = 1;
             this.btnElimarCancion.Text = "Eliminar Canción";
             this.btnElimarCancion.UseVisualStyleBackColor = true;
+            this.btnElimarCancion.Click += new System.EventHandler(this.btnElimarCancion_Click);
             // 
             // btnActualizarCancion
             // 
@@ -62,6 +64,7 @@
             this.btnActualizarCancion.TabIndex = 2;
             this.btnActualizarCancion.Text = "Actualizar Canción";
             this.btnActualizarCancion.UseVisualStyleBackColor = true;
+            this.btnActualizarCancion.Click += new System.EventHandler(this.btnActualizarCancion_Click);
             // 
             // btnAgregarCancion
             // 
@@ -71,6 +74,7 @@
             this.btnAgregarCancion.TabIndex = 3;
             this.btnAgregarCancion.Text = "Agregar Canción";
             this.btnAgregarCancion.UseVisualStyleBackColor = true;
+            this.btnAgregarCancion.Click += new System.EventHandler(this.btnAgregarCancion_Click);
             // 
             // gbMenu
             // 
